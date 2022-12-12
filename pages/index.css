@@ -1,4 +1,4 @@
-﻿@import url(../fonts/fonts.css);
+﻿@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -19,8 +19,18 @@
 @import url(../blocks/intro/__span-regular/intro__span-regular.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__website-title/place__website-title.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/places/__place/places__place.css);
 
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__lead/page__lead.css);
 @import url(../blocks/page/__intro/page__intro.css);
 @import url(../blocks/page/__photo-grid/page__photo-grid.css);
+@import url(../blocks/page/__places/page__places.css);
