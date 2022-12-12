@@ -1,7 +1,6 @@
 ﻿.cover {
-  width: calc(1184 / 9.84 * 1%);
-  padding-bottom: calc((740 / 9.84) * 1%);
-  margin-left: calc((100 - 1184 / 9.84) / 2 * 1%);
+  width: 100%;
+  padding-bottom: calc(740 / 984 * 100%);
   background: url(../../images/cover-trains.jpg) center / cover no-repeat;
   position: relative;
   z-index: 1;

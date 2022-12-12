@@ -1,8 +1,7 @@
 ﻿.photo-grid {
-  width: calc((1184 / 9.84) * 1px);
-  position: relative;
-  left: calc(((100 - (1184 / 9.84)) / 2) * 1%);
+  width: 100%;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
 }

@@ -1,5 +1,5 @@
 ﻿.lead {
-  width: 100%;
+  width: calc(984 / 1184 * 100%);
   margin: 0 auto;
   text-align: center;
 }

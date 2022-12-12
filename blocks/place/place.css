@@ -2,5 +2,5 @@
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: 1fr 460px;
-  gap: 48px 40px;
+  gap: 48px calc(40 / 1280 * 100%);
 }
