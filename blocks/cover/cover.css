@@ -20,14 +20,5 @@
     width: 100%;
     padding-bottom: calc(480 / 768 * 100%);
     left: 0;
-    background: url(../../images/cover-trains_size_m.jpg) center / cover
-      no-repeat;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    background: url(../../images/cover-trains_size_s.jpg) center / cover
-      no-repeat;
   }
 }
