@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   width: calc(1184 / 1280 * 100%);
+  max-width: 1184px;
   margin: 0 auto;
 }
 
