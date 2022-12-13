@@ -9,3 +9,9 @@
     width: calc(928 / 1024 * 100%);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+}

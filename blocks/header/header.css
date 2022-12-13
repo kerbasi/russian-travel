@@ -12,3 +12,10 @@
     width: calc(928 / 1024 * 100%);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    width: calc(720 / 768 * 100%);
+  }
+}
