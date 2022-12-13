@@ -3,3 +3,9 @@
   width: calc(1184 / 1280 * 100%);
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .main {
+    width: calc(928 / 1024 * 100%);
+  }
+}
