@@ -2,3 +2,9 @@
   width: 176px;
   align-self: center;
 }
+
+@media screen and (max-width: 550px) {
+  .header__logo {
+    width: 142px;
+  }
+}

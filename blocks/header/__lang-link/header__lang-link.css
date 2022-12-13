@@ -3,3 +3,11 @@
   line-height: 28px;
   padding-bottom: 6px;
 }
+
+@media screen and (max-width: 550px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 8px;
+  }
+}
