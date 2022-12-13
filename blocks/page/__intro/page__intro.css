@@ -2,3 +2,9 @@
   margin-top: 92px;
   margin-left: calc(100 / 1280 * 100%);
 }
+
+@media screen and (max-width: 1024px) {
+  .page__intro {
+    margin-left: 0;
+  }
+}
