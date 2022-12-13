@@ -1,15 +1,15 @@
-﻿.page__cover {
+﻿.main__photo-grid {
   margin-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
-  .page__cover {
-    margin-top: 90px;
+  .main__photo-grid {
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 550px) {
-  .page__cover {
-    margin-top: 66px;
+  .main__photo-grid {
+    margin-top: 64px;
   }
 }

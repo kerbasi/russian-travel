@@ -38,11 +38,10 @@
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
 @import url(../blocks/page/__header/page__header.css);
-@import url(../blocks/page/__lead/page__lead.css);
-@import url(../blocks/page/__intro/page__intro.css);
-@import url(../blocks/page/__photo-grid/page__photo-grid.css);
-@import url(../blocks/page/__places/page__places.css);
-@import url(../blocks/page/__cover/page__cover.css);
+@import url(../blocks/main/__lead/main__lead.css);
+@import url(../blocks/main/__intro/main__intro.css);
+@import url(../blocks/main/__photo-grid/main__photo-grid.css);
+@import url(../blocks/main/__places/main__places.css);
+@import url(../blocks/main/__cover/main__cover.css);
 @import url(../blocks/page/__footer/page__footer.css);
