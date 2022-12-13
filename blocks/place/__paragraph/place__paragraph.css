@@ -15,3 +15,9 @@
     max-width: 456px;
   }
 }
+
+@media screen and (max-width: 737px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}

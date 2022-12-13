@@ -5,3 +5,24 @@
     no-repeat;
   margin-top: 64px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__image {
+    background: url(../../../images/lead-polka_size_l.png) center / cover
+      no-repeat;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    background: url(../../../images/lead-polka_size_m.png) center / cover
+      no-repeat;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__image {
+    background: url(../../../images/lead-polka_size_s.png) center / cover
+      no-repeat;
+  }
+}
