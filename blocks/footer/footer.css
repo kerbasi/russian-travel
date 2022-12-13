@@ -1,0 +1,29 @@
+﻿.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(1184 / 1280 * 100%);
+  max-width: 1184px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc(928 / 1024 * 100%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(720 / 768 * 100%);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    /* width: calc(720 / 768 * 100%); */
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: calc(16 / 320 * 100%);
+  }
+}
