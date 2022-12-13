@@ -12,5 +12,12 @@
 @media screen and (max-width: 768px) {
   .page__intro {
     margin-left: auto;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .page__intro {
+    margin-top: 64px;
   }
 }

@@ -20,3 +20,11 @@
     gap: 16px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .photo-grid {
+    width: calc(288 / 320 * 100%);
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}

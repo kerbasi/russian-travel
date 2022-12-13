@@ -3,8 +3,16 @@
   font-size: 18px;
   line-height: 22px;
   transition: opacity 0.5s ease-in-out;
+  margin-top: 12px;
+  display: block;
 }
 
 .place__link:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 550px) {
+  .place__link {
+    margin-left: calc(16 / 320 * 100%);
+  }
 }

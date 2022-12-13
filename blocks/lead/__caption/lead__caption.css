@@ -7,3 +7,9 @@
   margin-top: 8px;
   text-align: start;
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin-left: calc(24 / 768 * 100%);
+  }
+}

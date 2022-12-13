@@ -4,4 +4,11 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
+  margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+  .place__website-title {
+    margin-left: calc(16 / 320 * 100%);
+  }
 }
