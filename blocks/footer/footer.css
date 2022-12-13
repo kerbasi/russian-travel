@@ -18,3 +18,12 @@
     width: calc(720 / 768 * 100%);
   }
 }
+
+@media screen and (max-width: 550px) {
+  .footer {
+    /* width: calc(720 / 768 * 100%); */
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: calc(16 / 320 * 100%);
+  }
+}

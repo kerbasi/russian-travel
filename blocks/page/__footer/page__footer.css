@@ -8,3 +8,9 @@
     margin-top: 88px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .page__footer {
+    margin-top: 64px;
+  }
+}
