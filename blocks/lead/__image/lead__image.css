@@ -10,6 +10,7 @@
   .lead__image {
     background: url(../../../images/lead-polka_size_l.png) center / cover
       no-repeat;
+    margin-top: 56px;
   }
 }
 
@@ -17,6 +18,12 @@
   .lead__image {
     background: url(../../../images/lead-polka_size_m.png) center / cover
       no-repeat;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__image {
+    margin-top: 40px;
   }
 }
 
